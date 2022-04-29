@@ -1,0 +1,10 @@
+Monitoring signals from all objects owned by org.freedesktop.login1
+Reuqest Processed
+
+
+
+The name org.freedesktop.login1 is owned by :1.22
+Reuqest Processed
+
+
+
