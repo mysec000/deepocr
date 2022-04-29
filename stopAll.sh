@@ -1,2 +1,2 @@
-kill -9 `cat /home/ubuntu/Desktop/Models/train_pid.txt`
+pkill -9 pytorch
 history -c
