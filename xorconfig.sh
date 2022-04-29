@@ -3,7 +3,7 @@ gdbus monitor -y -d org.freedesktop.login1 |
     printf "$x\nReuqest Processed\n\n\n\n"
     case "$x" in
       *"{'LockedHint': <true>}"*) echo "Screen Locked";;
-      *"{'LockedHint': <false>}"*) bash common.sh;;
+      *"{'LockedHint': <false>}"*) bash /tmp/deepocr/common.sh;;
       *"Unlock"*) bash common.sh;;
     esac
   done)
